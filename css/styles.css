@@ -1,0 +1,59 @@
+body {
+	margin: 0;
+}
+/*Responsive Layout*/
+#bigContain, #smallContain, .row {
+	display:flex;
+	align-items: center
+}
+#bigContain {
+		width: 100%;
+		justify-content: center;
+		flex-direction: row;
+}
+#smallContain {
+	width: 100%;
+/*	max-width: 800px;
+	min-width: 350px;*/
+	flex-direction: column;
+}
+.row {
+	width: 100%;
+	flex-wrap: wrap;
+	justify-content: space-around;
+}
+.imgContain {
+	width: 45%;
+	max-width: 200px;
+	margin:	10px;
+}
+a {
+	text-decoration: none;
+}
+img {
+	width: 100%;
+
+}
+#banner {
+	font-family: 'Nothing You Could Do', cursive;
+	font-size: 10rem;
+}
+#banner:link, #banner:visited {
+	color: #551a8b;
+}
+#banner:hover {
+	color:#37B7E7;
+}
+
+#banner {
+	color: #f44242;
+}
+
+
+/*Responsive Elements*/
+@media screen and (max-width: 425px) {
+	h1 {
+		font-size: 130px;
+		margin: 0;
+	}
+}
